@@ -6,6 +6,8 @@
 .text-primary{
     color: #FD6E0A;
 }
+.section{
+    margin-top: 130px;}
 .btn-primary{
     font-weight: 700px;
     font-size: 20px;
@@ -72,7 +74,7 @@ margin: 0 auto;
 }
 /* about section style */
 .about{
-    margin-top: 130px;
+    
     background-color: #FFF8F3;
     padding: 130px 150px;
 }
@@ -80,11 +82,13 @@ margin: 0 auto;
     font-size: 25px;
     text-align: center;
     margin-bottom: 30px;
+    text-align: center;
 }
 .section-discription{
 color: #757575;
 font-size: 18px;
 margin-bottom: 30px;
+
 }
  
 .about-info-container{
@@ -98,4 +102,27 @@ margin-bottom: 30px;
 .info-description{
     font-weight: 700;
     font-size: 20px;
+}
+/* what i do style */
+ 
+
+.skills-container{
+    display: flex;
+    gap: 90px;
+}
+.skill{
+color: #FFFFFF;
+border-radius: 5px;
+box-shadow: 0px  6px 50px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+.skill-title{
+    font-weight: 700px;
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+color: #757575;
 }
