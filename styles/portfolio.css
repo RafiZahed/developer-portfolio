@@ -47,7 +47,7 @@ nav ul{
 .banner{
     display: flex;
    align-items: center;
-    margin-left: 0px 200px;
+    margin: 0px 200px;
      
     
 }
@@ -108,7 +108,7 @@ margin-bottom: 30px;
 
 .skills-container{
     display: flex;
-    gap: 90px;
+    gap: 60px;
 }
 .skill{
 color: #FFFFFF;
@@ -126,3 +126,73 @@ padding: 30px;
 .skill-description{
 color: #757575;
 }
+/* resume content */
+.resume-content{
+    display: flex;
+    gap: 50px;
+}
+.resume-container{
+    display: flex;
+    gap: 25px;
+
+}
+.resume-title{
+    color: #474747;
+    font-weight: 700px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.resume-subtitle{
+
+    color: #757575;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-description{
+color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+ 
+.resume-btn{
+margin-top: 50px;
+text-align: center;
+}
+/* Contact style */
+.section-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+     
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    padding:  130px 200px;
+    color:#474747;
+}
+.contact.section-title{
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+
+}
+.contact input ,textarea{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:  18px 40px;
+    
+}
+input{
+    height: 64px;
+}
+.contact{
+    text-decoration: none;
+}
+ 
